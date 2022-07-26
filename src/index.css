@@ -11,3 +11,77 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.mail-gun {
+  height: 50px;
+}
+
+.container {
+  margin: 24px;
+}
+
+.logo-container {
+  padding: 16px;
+  cursor: pointer;
+  border: 1px solid rgb(189, 188, 188);
+  width: fit-content;
+  border-radius: 12px;
+}
+
+span {
+  font-size: 12px;
+  color: blue;
+  cursor: pointer;
+  margin-right: 4px;
+}
+
+p {
+  font-size: 12px;
+  color: #292727c4;
+  margin-bottom: 12px;
+}
+
+.form-section {
+
+}
+
+h6 {
+  font-size: 13px;
+  color: black;
+  font-weight: normal;
+}
+
+label {
+  display: flex;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  color: #292727c4;
+}
+
+input {
+  display:block;
+  width:220px;
+  margin:10px 0;
+  padding:10px;
+  border:1px solid #111;
+  transition: .3s background-color;
+}
+
+.type-3:hover {
+  background-color: #fafafa;
+}
+
+.btn {
+  margin-top: 32px;
+  appearance:none;
+  -webkit-appearance:none;
+
+  padding:12px;
+  border:none;
+  color:rgb(27, 25, 25);
+  font-weight:600;
+  border-radius:5px;
+  width: 120px;
+  cursor: pointer;
+}
+
